@@ -34,6 +34,8 @@ public class DeathScreenHandler : MonoBehaviour
         deathUI.SetActive(false);
         isActive = false;
         isDead = false;
+        RoomChecker.enemyCount = 0;
+        RoomChecker2.enemyCount = 0;
     }
 
     public void Quit()
